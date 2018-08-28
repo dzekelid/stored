@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Stored
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/stored/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
 apis:
@@ -37,6 +37,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/stored/master/_listings/dezrez/apicacheitemkey-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/stored/master/_listings/dezrez/apicacheitemkey-delete-openapi.md
+- name: Dezrez.Rezi.Client.Api - Retrieves a list of objects stored in the cache system
+    by its {listKey}
+  x-api-slug: apicachelistlistkey-get
+  description: Retrieves a list of objects stored in the cache system by its {listkey}.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stored/master/_listings/dezrez/apicachelistlistkey-get-openapi.md
 - name: Dezrez.Rezi.Client.Api - Get list of all fees stored
   x-api-slug: apifeegetall-get
   description: Get list of all fees stored.

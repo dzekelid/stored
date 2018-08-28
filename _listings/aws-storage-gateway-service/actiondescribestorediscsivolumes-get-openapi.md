@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: AWS Storage Gateway Service
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Describe Stored SCSI Volumes
   version: 1.0.0
+  description: Returns the description of the gateway volumes specified in the request.
 schemes:
 - http
 produces:
@@ -69,3 +71,17 @@ paths:
           description: OK
       tags:
       - Stored SCSI Volumes
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
